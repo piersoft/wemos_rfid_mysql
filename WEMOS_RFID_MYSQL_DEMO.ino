@@ -35,7 +35,7 @@ const char* password = ""; //replace with you wireless network password
 
 // Remote site information
 const char* host = "TUODOMINIO"; // IP address of your local server or web domain
-String url = ""; // folder location of the txt file with the RFID cards identification, p.e. "/test.txt" if on the root of the server
+String url = ""; // folder location of the txt file with the RFID cards identification, p.e. "http://www.tuodominio.it/lettura.php" if on the root of the server
 
 int time_buffer = 5000; // amount of time in miliseconds that the relay will remain open
 
