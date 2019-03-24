@@ -1,7 +1,7 @@
 <?php
 
 $database = "myarduino"; // creare db myarduino
-$db_record = 'card'; // creare tabella card nel DB myarduino
+$db_record = 'card'; // creare tabella card nel DB myarduino e la chiave cardid di tipo text 
 $hostname = "localhost";
 $user = "UTENTE"; //utente che puo' accedere al db myarduino
 $password = "PASSWORD";
